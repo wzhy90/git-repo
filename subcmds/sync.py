@@ -258,8 +258,8 @@ later is required to fix a server side protocol bug.
     # We'll set to true once we've locked the lock.
     did_lock = False
 
-    if not opt.quiet:
-      print('Fetching project %s' % project.name)
+    #if not opt.quiet:
+    #  print('Fetching project %s' % project.name)
 
     # Encapsulate everything in a try/except/finally so that:
     # - We always set err_event in the case of an exception.
